@@ -1,0 +1,26 @@
+{
+  "name": "mastering-react-test-driven-development",
+  "version": "1.0.0",
+  "description": "appointments",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanowenhayes/Mastering-React-Test-Driven-Development.git"
+  },
+  "keywords": [
+    "appointments",
+    "tdd"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanowenhayes/Mastering-React-Test-Driven-Development/issues"
+  },
+  "homepage": "https://github.com/seanowenhayes/Mastering-React-Test-Driven-Development#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
