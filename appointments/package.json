@@ -4,7 +4,8 @@
   "description": "Appointments system",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -13,19 +14,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
-    "jest": "^24.1.0"
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "jest": "^27.0.6",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.4",
-    "react": "^16.9.0-alpha.0",
-    "react-dom": "^16.9.0-alpha.0"
+    "@babel/runtime": "^7.15.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "prettier": {
     "singleQuote": true,
     "printWidth": 67,
     "jsxBracketSameLine": true
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
